@@ -1,0 +1,31 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+.hero-title {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 4rem;
+
+  text-shadow: 2px 2px 1px #e6d3d3;
+}
+.hero-banner {
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    flex-direction: row;
+    align-items: end;
+  }
+  .hero-title {
+    text-align: start;
+    flex: 1.9;
+    line-height: 4.3rem;
+  }
+  .hero-banner {
+    flex: 1.1;
+  }
+}

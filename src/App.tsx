@@ -1,7 +1,9 @@
+import {HomePage} from "./pages/home/ui";
+
 function App() {
   return (
     <>
-      <h1>hello</h1>
+      <HomePage />
     </>
   );
 }

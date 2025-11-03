@@ -1,0 +1,17 @@
+.collection {
+  display: flex;
+  justify-content: center;
+}
+
+.collection-text {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 500;
+  text-shadow: 2px 2px 5px rgb(190, 166, 166);
+}
+
+@media (min-width: 786px) {
+  .collection {
+    justify-content: start;
+  }
+}

@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "homepage": "https://<Vitalii959>.github.io/<ColoringBooks>/",
+  "homepage": "https://Vitalii959.github.io/ColoringBooks/",
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
